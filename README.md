@@ -48,11 +48,8 @@ The agent only uses earlier dates when creating a recommendation for a later dat
 | `ad_optimization_agent.ipynb` | Google Colab notebook for running the project |
 | `ad_optimization_agent.py` | Python implementation of the agent |
 | `ad_campaign_data.csv` | 21 days of mock data for three advertising channels |
-| `design_document.md` | One-page explanation of the agent design |
 | `scaling_note.md` | Cloud deployment, monitoring, and cost-control plan |
 | `secrets_setup.md` | Optional API-key and secret-management instructions |
-| `presentation_outline.md` | Presentation speaking notes |
-| `ad_optimization_agent_presentation.pptx` | 2–3 minute presentation slides |
 | `requirements.txt` | Python packages used by the project |
 
 ## Requirements
