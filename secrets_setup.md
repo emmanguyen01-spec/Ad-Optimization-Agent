@@ -1,13 +1,5 @@
 # API Keys and Secrets for Beginners
 
-## Do you need an API key for this assignment?
-
-Based on the ad-optimization rubric, no API key is required. The rubric grades the CSV, performance calculations, budget decisions, guardrails, decision logs, baseline comparison, scaling note, and presentation. This project therefore uses a transparent Python decision agent that runs without an LLM or paid API.
-
-The customer-service starter code is a separate example. It uses Azure OpenAI and therefore needs a model API key. The starter code does not automatically become a requirement for the ad-optimization assignment.
-
-## If your instructor specifically requires an LLM key
-
 Use one secret name consistently, such as `OPENAI_API_KEY`.
 
 ### GitHub Codespaces
@@ -47,8 +39,3 @@ from google.colab import userdata
 api_key = userdata.get("OPENAI_API_KEY")
 ```
 
-If you are not using an LLM, leave the secret unset and run the API-free version supplied in this project.
-
-## Important warning about the supplied starter files
-
-The supplied notebook includes a real-looking Azure key directly in code. Do not use or upload that value. If it belongs to your instructor or school, the owner should rotate or revoke it. A key that appears in a shared file should be treated as exposed.
