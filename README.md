@@ -111,14 +111,6 @@ The simulated evaluation produced:
 
 This represents an estimated `18.9%` conversion lift compared with the equal-split baseline. These results use mock data and do not represent real campaign performance.
 
-## API Keys and Secrets
-
-The current project does not require an API key because the optimization logic uses transparent Python rules.
-
-If an instructor requires an optional LLM version, use `OPENAI_API_KEY` as a protected environment variable through GitHub Codespaces or Google Colab Secrets. Never place an actual key directly in a notebook, Python file, README, or GitHub repository.
-
-The `secrets_setup.md` file explains how to configure a secret safely.
-
 ## Limitations
 
 - The campaign data is simulated.
@@ -135,7 +127,3 @@ The `secrets_setup.md` file explains how to configure a secret safely.
 - Add an optional LLM explanation layer.
 - Run the workflow automatically once per day in a cloud environment.
 - Add monitoring alerts and a rollback process.
-
-## Security
-
-Do not commit API keys, passwords, tokens, or `.env` files to GitHub. The `.gitignore` file is included to help prevent accidental secret uploads.
